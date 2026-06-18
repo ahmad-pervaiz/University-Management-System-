@@ -1,2 +1,8 @@
-[tool.vercel]
-entrypoint = "index.py"
+[project]
+name = "university-management-system"
+version = "0.1.0"
+description = "A university management system web app"
+requires-python = ">=3.9"
+dependencies = [
+    "Flask>=3.0.0",
+]
